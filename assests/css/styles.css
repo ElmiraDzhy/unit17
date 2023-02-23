@@ -2,55 +2,6 @@
     box-sizing: border-box;
 }
 
-
-.img-container>img{
-
-    width: 200px;
-    height: 200px;
-
-    border-radius: 50%;
-}
-
-.fakeimg{
-    width: 200px;
-    height: 200px;
-
-    border-radius: 50%;
-    background-image: url("https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=800");
-    background-position: center;
-    background-size: cover;
-    border: 1px solid black;
-}
-
-/* ///// */
-
-.div{
-    display: inline-block;
-    min-width: 200px;
-    min-height: 200px;
-
-    border: 1px solid black;
-    text-align: center;
-    font-size: 30px;
-}
-
-.hidden-1{
-    display: none;
-}
-
-
-
-.hidden-2{
-    opacity: 0.3;
-
-}
-
-
-.hidden-3{
-    visibility: hidden;
-
-}
-
 .parent{
     width: 592px;
     height: 587px;
@@ -72,12 +23,24 @@
    border: 1px solid rgb(255, 255, 255);
 
 }
-.w>svg{
-    z-index:  1;
-}
 
 svg{
     overflow:visible;
     fill: red;
 }
+
+table{
+    width: 30vw;
+    height: 30vw;
+
+background-color: antiquewhite;
+text-align: center;
+}
+
+
+
+tr, td{
+    border: 1px solid black;
+}
+
 
