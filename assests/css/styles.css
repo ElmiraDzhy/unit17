@@ -3,35 +3,22 @@
 }
 
 
-table{
-    width: 40vw;
-    height: 30vw;
-
-    background-color: antiquewhite;
-    text-align: center;
-    border: 1px solid black;
-
-    border-collapse: collapse;
-
-    font-family: sans-serif;
-
-    margin: auto;
-
-    vertical-align: middle;
+#root-div h2{
+    color: rgb(0, 60, 128);
 }
 
-
-
-tr, td{
-    border: 1px solid black;
-}
-td{
-    width: 100px;
+#root-div>h2{
+    color: green;
 }
 
-caption{
-    font-size: 30px;
-    font-weight: lighter;
-    padding: 30px;
+#root-div>div>p{
+    border-bottom: 1px solid black;
 }
 
+#root-div > h2+div{
+    border: 3px solid red;
+}
+
+h2 ~ div{
+    padding: 20px;
+}
