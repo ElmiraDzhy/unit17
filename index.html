@@ -14,12 +14,48 @@
 			rel="stylesheet"
 			href="./assests/css/styles.css"
 		/>
-		<title>Unit18</title>
+
+		<title>Unit19</title>
 	</head>
 	<body>
-		<h1>ADVANCED CSS SELECTORS</h1>
-
-		<h2>Header</h2>
+		<header>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-list-item">
+						<a
+							class="link"
+							href="#"
+						>
+							Link1
+						</a>
+					</li>
+					<li class="nav-list-item">
+						<a
+							class="link"
+							href="#"
+						>
+							Link2
+						</a>
+					</li>
+					<li class="nav-list-item">
+						<a
+							class="link"
+							href="#"
+						>
+							Link3
+						</a>
+					</li>
+					<li class="nav-list-item">
+						<a
+							class="link"
+							href="#"
+						>
+							Link4
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
 		<article class="user-card">
 			<img
@@ -36,41 +72,45 @@
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
 			</p>
 
-			<div class="social-container">
-				<img
-					src="./assests/img/account-card-outline.svg"
-					alt=""
-					class="icon"
-				/>
-				<p class="social-numbers">123</p>
+			<div class="social-containers-wrapper">
+				<div class="social-container">
+					<img
+						src="./assests/img/heart-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">123</p>
+				</div>
+				<div class="social-container">
+					<img
+						src="./assests/img/account-card-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">324</p>
+				</div>
+				<div class="social-container">
+					<img
+						src="./assests/img/email-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">78</p>
+				</div>
 			</div>
-			<div class="social-container">
-				<img
-					src="./assests/img/account-card-outline.svg"
-					alt=""
-					class="icon"
-				/>
-				<p class="social-numbers">324</p>
-			</div>
-			<div class="social-container">
-				<img
-					src="./assests/img/account-card-outline.svg"
-					alt=""
-					class="icon"
-				/>
-				<p class="social-numbers">78</p>
-			</div>
-
 			<button
 				type="button"
 				class="follow-btn"
 			>
 				Follow
 			</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
 		</article>
 		<article class="user-card">
 			<img
-				src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
+				src="https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png"
 				alt=""
 				class="user-photo"
 			/>
@@ -85,7 +125,7 @@
 
 			<div class="social-container">
 				<img
-					src="./assests/img/account-card-outline.svg"
+					src="./assests/img/heart-outline.svg"
 					alt=""
 					class="icon"
 				/>
@@ -101,7 +141,7 @@
 			</div>
 			<div class="social-container">
 				<img
-					src="./assests/img/account-card-outline.svg"
+					src="./assests/img/email-outline.svg"
 					alt=""
 					class="icon"
 				/>
@@ -109,10 +149,13 @@
 			</div>
 
 			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
 		</article>
 		<article class="user-card">
 			<img
-				src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
+				src="https://thumbs.dreamstime.com/b/friendly-young-woman-smiling-white-background-131395937.jpg"
 				alt=""
 				class="user-photo"
 			/>
@@ -127,7 +170,7 @@
 
 			<div class="social-container">
 				<img
-					src="./assests/img/account-card-outline.svg"
+					src="./assests/img/heart-outline.svg"
 					alt=""
 					class="icon"
 				/>
@@ -143,7 +186,7 @@
 			</div>
 			<div class="social-container">
 				<img
-					src="./assests/img/account-card-outline.svg"
+					src="./assests/img/email-outline.svg"
 					alt=""
 					class="icon"
 				/>
@@ -151,7 +194,243 @@
 			</div>
 
 			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
 		</article>
+		<article class="user-card">
+			<img
+				src="https://uploads-ssl.webflow.com/5e51ceaf2c16e8761d0d8c83/635b05d76cb54c0ae549f274_Simon_avatar_2022.png"
+				alt=""
+				class="user-photo"
+			/>
+
+			<h1 class="user-name">User Name</h1>
+
+			<p class="user-bio">Expedita!</p>
+
+			<p class="user-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
+			</p>
+
+			<div class="social-container">
+				<img
+					src="./assests/img/heart-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">123</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/account-card-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">324</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/email-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">78</p>
+			</div>
+
+			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
+		</article>
+		<article class="user-card">
+			<img
+				src="https://st.depositphotos.com/1735175/2040/i/600/depositphotos_20405857-stock-photo-young-beautiful-woman-with-closed.jpg"
+				alt="user picture"
+				class="user-photo"
+			/>
+
+			<h1 class="user-name">User Name</h1>
+
+			<p class="user-bio">Expedita!</p>
+
+			<p class="user-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
+			</p>
+
+			<div class="social-containers-wrapper">
+				<div class="social-container">
+					<img
+						src="./assests/img/heart-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">123</p>
+				</div>
+				<div class="social-container">
+					<img
+						src="./assests/img/account-card-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">324</p>
+				</div>
+				<div class="social-container">
+					<img
+						src="./assests/img/email-outline.svg"
+						alt=""
+						class="icon"
+					/>
+					<p class="social-numbers">78</p>
+				</div>
+			</div>
+			<button
+				type="button"
+				class="follow-btn"
+			>
+				Follow
+			</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
+		</article>
+		<article class="user-card">
+			<img
+				src="https://media.licdn.com/dms/image/C4E03AQEi-3N8vxWC6g/profile-displayphoto-shrink_800_800/0/1516926081923?e=2147483647&v=beta&t=YIZKyUMxtMP8k_sjk2E26qPRUAIFhqqwQlqJevzc11Q"
+				alt=""
+				class="user-photo"
+			/>
+
+			<h1 class="user-name">User Name</h1>
+
+			<p class="user-bio">Expedita!</p>
+
+			<p class="user-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
+			</p>
+
+			<div class="social-container">
+				<img
+					src="./assests/img/heart-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">123</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/account-card-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">324</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/email-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">78</p>
+			</div>
+
+			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
+		</article>
+		<article class="user-card">
+			<img
+				src="https://www.shutterstock.com/image-photo/close-headshot-portrait-young-20s-260nw-1921270919.jpg"
+				alt=""
+				class="user-photo"
+			/>
+
+			<h1 class="user-name">User Name</h1>
+
+			<p class="user-bio">Expedita!</p>
+
+			<p class="user-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
+			</p>
+
+			<div class="social-container">
+				<img
+					src="./assests/img/heart-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">123</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/account-card-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">324</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/email-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">78</p>
+			</div>
+
+			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
+		</article>
+		<article class="user-card">
+			<img
+				src=" https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&w=1000&q=80"
+				alt=""
+				class="user-photo"
+			/>
+
+			<h1 class="user-name">User Name</h1>
+
+			<p class="user-bio">Expedita!</p>
+
+			<p class="user-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod numquam mollitia assumenda itaque corrupti magnam?
+			</p>
+
+			<div class="social-container">
+				<img
+					src="./assests/img/heart-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">123</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/account-card-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">324</p>
+			</div>
+			<div class="social-container">
+				<img
+					src="./assests/img/email-outline.svg"
+					alt=""
+					class="icon"
+				/>
+				<p class="social-numbers">78</p>
+			</div>
+
+			<button class="follow-btn">Follow</button>
+			<div class="add-btn-wrapper">
+				<button class="add-btn"></button>
+			</div>
+		</article>
+
+		<footer></footer>
 	</body>
 </html>
 

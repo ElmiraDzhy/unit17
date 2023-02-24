@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+   background-color:  rgb(248, 212, 198);
 }
 
 
@@ -10,19 +15,64 @@
     min-width: 250px;
     width: 100%;
     max-width: 350px;
-    border: 1px solid black;
+    border: 1px solid rgb(235, 189, 138);
     text-align: center;
     padding: 20px;
     margin: 50px;
+    color: rgb(70, 64, 64);
+    background-color: aliceblue;
 }
 
+.add-btn-wrapper{
+    display: inline-block;
+    text-align: right;
+    position:relative;
+    bottom: 450px;
+    right: -167px;
+
+
+    
+}
+
+.add-btn{
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    border: 1px solid black;
+    background-color: rgb(194, 139, 245);
+    background-image: url("../img/add_FILL0_wght300_GRAD0_opsz48.svg");
+    background-position: center;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    border: 1px solid rgb(49, 42, 42);
+    background-color: rgb(177, 99, 250);
+}
+
+
 .user-photo{
+    display: inline-block;
     width: 170px;
     height: 170px;
     border-radius: 50%;
-
     object-fit: cover;
+    margin: auto;
+    margin-top: 0px;
+    border: 1px solid rgb(235, 189, 138);
 }
+
+.user-photo:hover{
+    cursor: pointer;
+    border: 1px solid rgb(107, 78, 67) ;
+
+}
+
+
+
 
 .user-bio{
     margin: 0px;
@@ -30,6 +80,7 @@
 
 .user-name{
     margin-bottom: 0px;
+    color: black;
 }
 
 .user-about{
@@ -48,7 +99,7 @@
 }
 
 .social-container + .social-container{
-    margin-left: 20px;
+    margin-left: 73px;
 }
 
 .follow-btn{
@@ -63,6 +114,15 @@
     border-radius: 7px;
     color: white;
 
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.follow-btn:hover{
+    cursor: pointer;
+    background-color: rgb(121, 93, 223);
+
 }
 
 .social-container{
@@ -74,3 +134,51 @@
     padding: 0px;
     margin: 0px;
 }
+
+.social-containers-wrapper{
+    width: 100%;
+}
+
+/* ------------------------------ */
+header, footer{
+    width: 100%;
+}
+
+.nav{
+    background-color: rgb(212, 173, 159);
+    padding: 20px;
+    color: rgb(131, 105, 105);
+    font-weight: bold;
+    height: 15vh;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 1px solid  rgb(107, 78, 67) ;
+
+    border-radius: 20px;
+}
+
+
+.nav-list-item{
+    display: inline-block;
+    margin-top: 20px;
+}
+.nav-list-item + .nav-list-item{
+    margin-left: 40px;
+}
+
+a:hover{
+    background-color: rgb(107, 78, 67);
+    color: rgb(199, 186, 158);
+}
+
+
+footer{
+    height: 150px;
+    background-color: rgb(212, 173, 159);
+}
+
